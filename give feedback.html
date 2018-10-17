@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-img {
+    
+    background-image: url("feedback3.jpg");
+    min-height:640px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    position: relative;
+}
+
+
+.container {
+    position: absolute;
+    top: 20%;
+    left :35%;
+    max-width: 400px;
+    padding: 16px;
+    background-color: white;
+     opacity : 0.9
+}
+
+
+input[type=text], input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 0.6;
+}
+</style>
+</head>
+<body>
+
+
+<div class="bg-img">
+  <form action="/action_page.php" class="container">
+    
+
+    <label for="Subject"><b>Subject</b></label>
+    <input type="text" placeholder="Enter subject" name="Subject" required>
+
+    <label for="dcp"><b>Description</b></label>
+    <input type="text" placeholder="enter discription" name="dcp" required>
+
+    <button type="submit" class="btn">Submit</button>
+  </form>
+</div>
+
+
+<a href="file:///F:/5TH%20SEMESTER/SE/Project/html/try.html" style = "position:fixed; bottom: 20pt; left: 0pt;"> Back to Home</a>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
