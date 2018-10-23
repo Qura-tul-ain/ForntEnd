@@ -1867,7 +1867,7 @@ li.sale-noti > a {
 */
 .bg-title-page {
   width: 100%;
-  min-height: 239px;
+  min-height: 560px;
   padding-left: 15px;
   padding-right: 15px;
   background-repeat: no-repeat;
@@ -2068,7 +2068,7 @@ li.sale-noti > a {
 .table-shopping-cart {
   border-collapse: collapse;
   width: 100%;
-  min-width: 992px;
+  min-width: 999px;
 }
 
 .table-shopping-cart .table-row {
@@ -2081,26 +2081,32 @@ li.sale-noti > a {
   padding-left: 50px;
 }
 .table-shopping-cart .column-2 {
-  width: 330px;
+  width: 200px;
   padding-right: 30px;
 }
 .table-shopping-cart .column-3 {
-  width: 133px;
-  padding-right: 30px;
+  width: 180px;
+  padding-right: 25px;
 }
 .table-shopping-cart .column-4 {
-  width: 355px;
+  width: 250px;
   padding-right: 30px;
 }
 .table-shopping-cart .column-5 {
+ width: 200px;
   padding-right: 30px;
 }
 
+.table-shopping-cart .column-6 {
+
+  padding-right: 20px;
+}
 .table-shopping-cart .table-head th {
   font-family: Montserrat-Bold;
   font-size: 13px;
   color: #555555;
   line-height: 1.5;
+  line-width: 5.5;
   text-transform: uppercase;
   padding-top: 16px;
   padding-bottom: 16px;
@@ -2118,7 +2124,9 @@ li.sale-noti > a {
 .table-shopping-cart .table-row .column-2 {
   font-size: 15px;
 }
-
+.table-shopping-cart .table-row .column-4 {
+  padding-right: 100px;
+}
 
 /* ------------------------------------ */
 .cart-img-product {
